@@ -2,4 +2,4 @@
 Android app golden path to demonstrate how to use a backend service to add, show and modify data.
 
 # backend
-This app will use node_golden_path (https://github.com/theupstarts/nodejs_golden_path)
+This app will use nodejs_golden_path (https://github.com/theupstarts/nodejs_golden_path)
