@@ -1,4 +1,4 @@
-llpackage com.wembikon.androidgoldenpath
+package com.wembikon.androidgoldenpath
 
 import android.os.Bundle
 import com.google.android.material.floatingactionbutton.FloatingActionButton
