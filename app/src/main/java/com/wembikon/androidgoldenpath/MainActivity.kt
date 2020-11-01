@@ -1,6 +1,7 @@
 package com.wembikon.androidgoldenpath
 
 import android.os.Bundle
+import android.util.Log
 import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
@@ -18,6 +19,27 @@ class MainActivity : AppCompatActivity() {
       Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
         .setAction("Action", null).show()
     }
+    Log.d("YANO", "onCreate")
+  }
+
+  override fun onStart() {
+    super.onStart()
+    Log.d("YANO", "onStart")
+  }
+
+  override fun onResume() {
+    super.onResume()
+    Log.d("YANO", "onResume")
+  }
+
+  override fun onStop() {
+    super.onStop()
+    Log.d("YANO", "onStop")
+  }
+
+  override fun onDestroy() {
+    super.onDestroy()
+    Log.d("YANO", "onDestroy")
   }
 
   override fun onCreateOptionsMenu(menu: Menu): Boolean {
